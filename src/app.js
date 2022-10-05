@@ -5,13 +5,8 @@ import ScissorMessage from './components/scissor_message'
 export default function App () {
   const [scissorCount, setScissorCount] = useState(0)
 
-  function incrementScissorCount () {
-    setScissorCount(scissorCount + 1)
-  }
-
-  function resetCount () {
-    setScissorCount(0)
-  }
+  const incrementScissorCount = () => setScissorCount(scissorCount + 1)
+  const resetCount = () => setScissorCount(0)
 
   return (
     <>
