@@ -10,10 +10,10 @@ export function App () {
   }
 
   return (
-    <div>
+    <>
       <h1 onClick={handleClick}>Scissor Me Daddy Ass!</h1>
       <MyButton />
       <ScissorMessage count={scissorCount} />
-    </div>
+    </>
   )
 }
