@@ -14,7 +14,7 @@ Navigate to `localhost:1234`
 To run the linter:
 
 ```
-npx eslint index.js src/**
+npx eslint src/**
 ```
 
 To deploy to Firebase - follow [these instructions](https://gist.github.com/niksseif/d86c4a3c05e2f3ca834a4c09152024ca)
