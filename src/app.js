@@ -5,7 +5,7 @@ import ScissorMessage from './components/scissor_message'
 export default function App () {
   const [scissorCount, setScissorCount] = useState(0)
 
-  function handleClick () {
+  function incrementScissorCount () {
     setScissorCount(scissorCount + 1)
   }
 
@@ -16,7 +16,7 @@ export default function App () {
   return (
     <>
       <h1>Scissor Me Daddy Ass!</h1>
-      <MyButton onClick={handleClick} text={'Scissor Me!'} />
+      <MyButton onClick={incrementScissorCount} text={'Scissor Me!'} />
       <br />
       <MyButton onClick={resetCount} text={'Reset'} />
       <ScissorMessage count={scissorCount} />
