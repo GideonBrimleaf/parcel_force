@@ -27,5 +27,6 @@ To deploy to Firebase run `firebase init` with the following options:
 
 1. Select hosting
 2. Set `dist` as the public directory
+3. There's no need to overwrite the existing `index.html` as you will have created the correct one in the build step
 
 Then run `firebase deploy`
