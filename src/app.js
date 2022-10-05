@@ -16,9 +16,9 @@ export function App () {
   return (
     <>
       <h1>Scissor Me Daddy Ass!</h1>
-      <MyButton onClick={handleClick} text={'Scissor Me!'}/>
+      <MyButton onClick={handleClick} text={'Scissor Me!'} />
       <br />
-      <MyButton onClick={resetCount} text={'Reset'}/>
+      <MyButton onClick={resetCount} text={'Reset'} />
       <ScissorMessage count={scissorCount} />
     </>
   )
