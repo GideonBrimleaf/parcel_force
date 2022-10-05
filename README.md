@@ -11,10 +11,12 @@ npx parcel index.html
 
 Navigate to `localhost:1234`
 
-To run the linter:
+To run the linter: `npx eslint src/**`
 
-```
-npx eslint src/**
-```
+To deploy to Firebase run `firebase init` with the following options:
 
-To deploy to Firebase - follow [these instructions](https://gist.github.com/niksseif/d86c4a3c05e2f3ca834a4c09152024ca)
+1. Select hosting
+2. Set `dist` as the public directory
+
+Ensure that a full build has completed successfully with `npx parcel build index.html`.
+Then run `firebase deploy`
