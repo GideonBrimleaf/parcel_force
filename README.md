@@ -9,6 +9,8 @@ npm install
 npx parcel index.html
 ```
 
+Navigate to `localhost:1234`
+
 To run the linter:
 
 ```
