@@ -1,3 +1,9 @@
-export function MyButton () {
-  return <button>Push Me</button>
+import PropTypes from 'prop-types'
+
+export function MyButton ({ onClick }) {
+  return <button onClick={onClick}>Push Me</button>
+}
+
+MyButton.propTypes = {
+  onClick: PropTypes.func
 }

@@ -11,8 +11,8 @@ export function App () {
 
   return (
     <>
-      <h1 onClick={handleClick}>Scissor Me Daddy Ass!</h1>
-      <MyButton />
+      <h1>Scissor Me Daddy Ass!</h1>
+      <MyButton onClick={handleClick}/>
       <ScissorMessage count={scissorCount} />
     </>
   )
