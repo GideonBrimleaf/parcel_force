@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import MyButton from './components/my_button.js'
-import ScissorMessage from './components/scissor_message.js'
+import MyButton from './components/my_button'
+import ScissorMessage from './components/scissor_message'
 
 export default function App () {
   const [scissorCount, setScissorCount] = useState(0)
