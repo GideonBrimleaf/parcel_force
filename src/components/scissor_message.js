@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-export default function ScissorMessage ({ count }) {
+const ScissorMessage = ({ count }) => {
   if (count > 0) {
     return <p>You got scissored {count} times</p>
   }
@@ -9,3 +9,5 @@ export default function ScissorMessage ({ count }) {
 ScissorMessage.propTypes = {
   count: PropTypes.number
 }
+
+export default ScissorMessage
