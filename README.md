@@ -20,7 +20,7 @@ npx parcel build index.html
 ```
 
 A note on assets - assets can be placed either in the root directory with `index.html` or in a dedicated directory.
-This project puts them into a `static` directory which is then referenced in `index.html`.  This does not impact the build
+This project puts them into a `public` directory which is then referenced in `index.html`.  This does not impact the build
 as Parcel can build these assets from anywhere so long as they are referenced correctly
 
 To deploy to Firebase run `firebase init` with the following options:
